@@ -1,7 +1,7 @@
 # payment
 
 ```python
-FLASK_APP=hello.py flask run
+FLASK_APP=paymentApplication.py flask run
 ```
 
 ```
