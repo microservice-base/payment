@@ -1,9 +1,18 @@
-FROM python:3
+FROM python:3-alpine
+
+RUN python --version
+
+RUN apk update && apk upgrade && \
+    apk add --no-cache bash git
+
 
 RUN git clone https://github.com/microservice-base/payment.git
 
-WORKDIR payment/payment
+WORKDIR /payment/payment
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
-CMD [ "python", "./paymentApplication.py" ]
+
+ENTRYPOINT ["python"]
+CMD ["paymentApplication.py"]
+#CMD ["echo","hello"]
