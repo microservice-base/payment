@@ -13,6 +13,6 @@ WORKDIR /payment/payment
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 
-# ENTRYPOINT ["python"]
-CMD ["paymentApplication.py","flask","run"]
+ENTRYPOINT ["python"]
+CMD [" paymentApplication.py "," flask run "]
 #CMD ["echo","hello"]
