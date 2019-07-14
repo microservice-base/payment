@@ -17,6 +17,6 @@ WORKDIR /payment/payment
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENTRYPOINT ["python"]
+ENTRYPOINT ["python3"]
 CMD ["paymentApplication.py"]
 #CMD ["echo","hello"]
