@@ -5,7 +5,7 @@ RUN python --version
 #RUN apk update && apk upgrade && \
 #    apk add --no-cache bash git
 
-RUN apk add git
+RUN apk add --no-cache bash
 
 
 RUN git clone https://github.com/microservice-base/payment.git
