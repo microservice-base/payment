@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 FROM python:3-alpine
 
 RUN python --version
