@@ -14,5 +14,5 @@ curl http://localhost:5000
 $  git clone https://github.com/microservice-base/payment.git
 $  cd payment
 $  docker build -t payment-basket  -f container/docker/Dockerfile . 
-$  docker run -d --name payment-app -p 8004:8004 payment-basket
+$  docker run -d --name payment-app -p 8004:8004 payment-image
 ```
