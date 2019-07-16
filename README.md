@@ -5,7 +5,7 @@ FLASK_APP=paymentApplication.py flask run
 ```
 
 ```
-curl http://localhost:5000
+curl http://localhost:8004
 ```
 
 
