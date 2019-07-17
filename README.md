@@ -1,7 +1,9 @@
 # payment
 
 ```python
-FLASK_APP=paymentApplication.py flask run
+$  git clone https://github.com/microservice-base/payment.git
+$  cd payment
+$  python3 payment/paymentApplication.py
 ```
 
 ```
