@@ -1,8 +1,9 @@
 from flask import Flask
-from flask_restful import Resource, Api
+from flask_restplus import Api,Resource
 
 app = Flask(__name__)
 api = Api(app)
+
 
 class Home(Resource):
     def get(self):
