@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def home():
+def index():
     json = ['test1', 'test2', 'test3']
     return jsonify(json)
 
