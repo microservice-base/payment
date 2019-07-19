@@ -1,15 +1,11 @@
-from flask import Flask
-from flask_restplus import Api,Resource
+from flask import Flask,jsonify
 
 app = Flask(__name__)
-api = Api(app)
 
-
-class Home(Resource):
-    def get(self):
-        return {'hello': 'world'}
-
-api.add_resource(Home, '/')
+@app.route('/')
+def home():
+    json = ['test1','test2','test3']
+    return jsonify(json)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0',port=8004)
+    app.run(debug=True, host='0.0.0.0', port=8004)
