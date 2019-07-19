@@ -8,6 +8,7 @@ def index():
     json = ['test1', 'test2', 'test3']
     return jsonify(json)
 
+
 @app.errorhandler(404)
 def page_not_found(error):
     return 'This page does not exist', 404
