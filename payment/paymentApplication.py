@@ -3,10 +3,14 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 
-@app.route('/')
-def index():
+@app.route('/payment')
+def home():
     json = ['test1', 'test2', 'test3']
     return jsonify(json)
+
+@app.route('/')
+def index():
+    return 'Payment Application Running ...'
 
 
 @app.errorhandler(404)
