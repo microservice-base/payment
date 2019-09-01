@@ -4,10 +4,7 @@
 $  git clone https://github.com/microservice-base/payment.git
 $  cd payment
 $  python3 payment/paymentApplication.py
-```
-
-```
-curl http://localhost:8004
+$  curl http://localhost:8004
 ```
 
 
