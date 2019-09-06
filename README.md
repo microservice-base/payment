@@ -1,5 +1,11 @@
 # payment
 
+https://github.com/microservice-base
+
+## Contributing
+
+[Contributing guide](CONTRIBUTING.md).
+
 ```
 $  git clone https://github.com/microservice-base/payment.git
 
