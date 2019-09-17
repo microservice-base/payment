@@ -2,8 +2,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-
-@app.route('/payment')
+@app.route('/list')
 def home():
     json = ['test1', 'test2', 'test3']
     return jsonify(json)
