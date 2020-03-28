@@ -2,9 +2,11 @@
 
 https://github.com/microservice-base
 
-## Contributing
 
-[Contributing guide](CONTRIBUTING.md).
+## how to create project
+
+
+## how to run project
 
 ```
 $  git clone https://github.com/microservice-base/payment.git
@@ -15,6 +17,10 @@ $  python3 payment/paymentApplication.py
 
 $  curl http://localhost:8004
 ```
+
+## contributing
+
+[Contributing guide](CONTRIBUTING.md).
 
 
 # docker 
