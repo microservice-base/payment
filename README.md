@@ -5,6 +5,8 @@ https://github.com/microservice-base
 
 ## how to create project
 
+https://flask.palletsprojects.com/en/1.1.x/quickstart/#a-minimal-application
+
 
 ## how to run project
 
