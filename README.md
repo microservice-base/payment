@@ -20,11 +20,6 @@ $  python3 payment/paymentApplication.py
 $  curl http://localhost:8004
 ```
 
-## contributing
-
-[Contributing guide](CONTRIBUTING.md).
-
-
 # docker 
 ```docker
 $  git clone https://github.com/microservice-base/payment.git
@@ -36,3 +31,9 @@ $  docker run -d --name app-payment -p 8004:8004 image-payment
 ```
 i will add configs
 ```
+
+
+## contributing
+
+[Contributing guide](CONTRIBUTING.md).
+
